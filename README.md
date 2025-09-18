@@ -19,3 +19,40 @@
 | + getSalePrice(): double              |
 | + displayInfo(): void                 |
 +-------------------+
+
++-----------------------+
+|        Student        |
++-----------------------+
+| - studentId: String   |
+| - fullName: String    |
+| - yearOfBirth: int    |
+| - address: String     |
++-----------------------+
+| + Student(studentId: String, fullName: String) |
+| + Student(studentId: String, fullName: String, yearOfBirth: int, address: String) |
+| + getStudentId(): String                       |
+| + setStudentId(studentId: String): void        |
+| + getFullName(): String                        |
+| + setFullName(fullName: String): void          |
+| + getYearOfBirth(): int                        |
+| + setYearOfBirth(yearOfBirth: int): void       |
+| + getAddress(): String                         |
+| + setAddress(address: String): void            |
+| + getAge(): int                                |
+| + displayInfo(): void                          |
++-----------------------+
+
++---------------------+
+|       Circle        |
++---------------------+
+| - radius: double    |
++---------------------+
+| + Circle()          |
+| + Circle(radius: double) |
+| + getRadius(): double    |
+| + setRadius(radius: double): void |
+| + input(): void     |
+| + output(): void    |
+| + getArea(): double |
+| + getCircumference(): double |
++---------------------+
